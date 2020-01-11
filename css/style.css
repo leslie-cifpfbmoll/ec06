@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+body {
+    font-family: 'Muli';
+    font-size: 19px;
+    flex-direction: row;
+}
+
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.index {
+    background-color: rgb(123, 194, 199)!important;
+    color: rgb(255, 255, 255);
+    height: 450px!important;
+    position: absolute;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    align-content: center;
+}
+
+button {
+    padding: 10px;
+    font-family: 'Muli';
+    border-style: outset;
+    text-transform: capitalize;
+}
+
+input {
+    text-transform: capitalize;
+    height: 30px;
+    width: 150px;
+}
+
+div#partida {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background: #CCC;
+    height: auto;
+}
+
+div#partida>div {
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid rgb(17, 211, 245);
+}
+
+.carta {
+    display: flex;
+    margin: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border: 1px solid rgb(17, 211, 245);
+}

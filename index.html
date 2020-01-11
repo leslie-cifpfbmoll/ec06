@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cartas</title>
+    <meta charset="UTF-8">
+    <meta value="viewport" content="width=device-width, ioculto tial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div id="contenedor">
+        <div class="botones">
+            <h3>Nickname: </h3>
+            <input id="name">
+            <h3>Nivel:</h3>
+            <button onclick="nivel('facil')">Fácil</button>
+            <button onclick="nivel('medio') ">Medio</button>
+            <button onclick="nivel('dificil') ">Difícil</button>
+            <h3>Tiempo</h3>
+            <p id="limite"></p>
+            <p id="tiempo"><span id="min">00</span>:<span id="seg">00</span></p>
+
+        </div>
+        <div id="partida"></div>
+
+    </div>
+</body>
+
+</html>
